@@ -69,7 +69,7 @@ UFW (Uncomplicated Firewall)
 
 Folder
 
-Task-02_Basic_Firewall
+Task-02_Basic_Firewall_Configuration_UFW
 
 
 ---
@@ -165,7 +165,7 @@ Oasis-Infobyte/
 │
 ├── Task-01_Basic_Scanning_with_Nmap/
 │
-├── Task-02_Basic_Firewall/
+├── Task-02_Basic_Firewall_Configuration_UFW/
 │
 ├── Task-03_SQL_Injection_DVWA/      (Incomplete)
 │
