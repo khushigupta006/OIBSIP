@@ -1,312 +1,214 @@
-#### Oasis Infobyte - Cyber Security Internship
+Oasis Infobyte Cyber Security Internship
+
+Overview:
+This repository contains the practical assignments completed during my Cyber Security Internship at Oasis Infobyte. Throughout the internship, I worked with industry-standard cybersecurity tools on Kali Linux to gain hands-on experience in network reconnaissance, firewall configuration, and network traffic analysis. Each task focuses on developing practical skills commonly used in cybersecurity assessments.
 
 
+---
 
-This repository contains the tasks completed during my Cyber Security Internship at Oasis Infobyte. The internship focused on practical cybersecurity concepts, network analysis, vulnerability assessment, web application security, and Git/GitHub version control.
+Tasks:
 
-
-
-###### 
-
-###### Internship Overview:
-
-Throughout this internship, I gained hands-on experience with various cybersecurity tools and techniques used in real-world environments. The tasks involved configuring security mechanisms, analyzing network traffic, deploying intentionally vulnerable applications for testing, and maintaining project versions using Git.
-
-
-
-\---
-
-
-
-\# Task 1 - Basic Firewall Configuration
-
-
+Task 1 – Basic Scanning with Nmap
 
 Objective
 
-Configure and manage firewall rules to control network traffic.
+Perform network reconnaissance using Nmap to identify active hosts, open ports, and running services.
 
+Key Learning Outcomes
+
+Host discovery
+
+TCP port scanning
+
+Service and version detection
+
+Network enumeration
+
+Understanding attack surface identification
 
 
 Tools Used
 
-\- Kali Linux
+Kali Linux
 
-\- UFW (Uncomplicated Firewall)
-
-
-
-Activities Performed
-
-\- Installed and configured UFW
-
-\- Enabled the firewall
-
-\- Allowed required services
-
-\- Blocked unwanted ports
-
-\- Verified firewall status
-
-\- Tested firewall functionality
+Nmap
 
 
+Folder
 
-Learning Outcomes
-
-\- Understanding firewall concepts
-
-\- Managing inbound and outbound traffic
-
-\- Creating firewall rules
-
-\- Monitoring firewall status
+Task-01_Basic_Scanning_with_Nmap
 
 
+---
 
-\---
-
-
-
-\# Task 2 - Wireshark Network Packet Analysis
-
-
+Task 2 – Basic Firewall Configuration
 
 Objective
 
-Capture and analyze network packets using Wireshark.
+Configure and manage a host-based firewall using UFW (Uncomplicated Firewall) to control network traffic.
 
+Key Learning Outcomes
+
+Firewall installation and configuration
+
+Allowing and blocking ports
+
+Managing firewall rules
+
+Verifying firewall status
+
+Understanding network access control
 
 
 Tools Used
 
-\- Wireshark
+Kali Linux
 
-\- Kali Linux
-
-
-
-Activities Performed
-
-\- Captured live network traffic
-
-\- Applied protocol filters
-
-\- Analyzed:
-
-&#x20; - TCP packets
-
-&#x20; - DNS packets
-
-&#x20; - HTTP traffic
-
-&#x20; - SYN packets
-
-\- Observed TCP three-way handshake
-
-\- Studied packet headers and protocol behavior
+UFW (Uncomplicated Firewall)
 
 
+Folder
 
-Learning Outcomes
-
-\- Packet capturing
-
-\- Network traffic analysis
-
-\- Protocol identification
-
-\- Understanding communication flow
-
-\- Troubleshooting network traffic
+Task-02_Basic_Firewall
 
 
+---
 
-\---
-
-
-
-\# Task 3 - SQL Injection Lab Setup (DVWA)
-
-
+Task 3 – SQL Injection using DVWA (Incomplete)
 
 Objective
 
-Deploy and configure Damn Vulnerable Web Application (DVWA) for practicing SQL Injection.
+Set up Damn Vulnerable Web Application (DVWA) and perform SQL Injection testing in a controlled environment.
 
+Current Progress
+
+Installed DVWA
+
+Configured Apache, PHP, and MariaDB
+
+Created the required database and user
+
+Configured DVWA files
+
+Performed troubleshooting for database connectivity issues
+
+
+Status
+
+Incomplete
+
+The SQL Injection demonstration could not be completed due to unresolved database authentication issues during the DVWA setup. The setup process and troubleshooting steps have been documented for future completion.
+
+
+---
+
+Task 8 – Wireshark Packet Capture and Analysis
+
+Objective
+
+Capture and analyze network traffic using Wireshark to understand packet flow and communication between systems.
+
+Key Learning Outcomes
+
+Packet capture
+
+Protocol filtering
+
+TCP handshake analysis
+
+HTTP and DNS traffic inspection
+
+Network traffic analysis
 
 
 Tools Used
 
-\- Kali Linux
+Kali Linux
 
-\- Apache2
+Wireshark
 
-\- MariaDB
 
-\- PHP
+Folder
 
-\- Git
+Task-08_Wireshark_Packet_Analysis
 
-\- DVWA
 
+---
 
+Technologies and Tools
 
-Activities Performed
+Kali Linux
 
-\- Installed Apache Web Server
+Nmap
 
-\- Configured MariaDB database
+UFW (Uncomplicated Firewall)
 
-\- Installed PHP
+Wireshark
 
-\- Cloned DVWA from GitHub
+Apache
 
-\- Configured database connection
+MariaDB
 
-\- Created DVWA database and user
+PHP
 
-\- Configured DVWA application
+Git
 
-\- Verified successful setup
+GitHub
 
 
 
-Learning Outcomes
+---
 
-\- Web server configuration
+Repository Structure
 
-\- Database configuration
+Oasis-Infobyte/
+│
+├── Task-01_Basic_Scanning_with_Nmap/
+│
+├── Task-02_Basic_Firewall/
+│
+├── Task-03_SQL_Injection_DVWA/      (Incomplete)
+│
+└── Task-08_Wireshark_Packet_Analysis/
 
-\- PHP application setup
 
-\- Web application deployment
+---
 
-\- Understanding SQL Injection testing environment
+Skills Acquired
 
+Network Reconnaissance
 
+Port Scanning
 
-\---
+Firewall Configuration
 
+Network Access Control
 
+Packet Capture and Analysis
 
-\# Task 4 - Git and GitHub Version Control
+Network Protocol Analysis
 
+Kali Linux Administration
 
+Basic Web Security Concepts
 
-Objective
+Git and GitHub Version Control
 
-Learn version control using Git and host projects on GitHub.
 
 
+---
 
-Tools Used
+Internship Details
 
-\- Git
+Organization: Oasis Infobyte
 
-\- GitHub
+Domain: Security analyst
 
-\- Command Prompt
 
+---
 
 
-Activities Performed
-
-\- Installed Git
-
-\- Configured Git username and email
-
-\- Initialized local repository
-
-\- Added project files
-
-\- Created commits
-
-\- Connected local repository with GitHub
-
-\- Pushed project to GitHub
-
-
-
-Learning Outcomes
-
-\- Version control basics
-
-\- Repository management
-
-\- Commit history
-
-\- Remote repositories
-
-\- GitHub collaboration workflow
-
-
-
-\---
-
-###### 
-
-###### Tools \& Technologies
-
-
-
-\- Kali Linux
-
-\- Wireshark
-
-\- UFW Firewall
-
-\- Apache2
-
-\- MariaDB
-
-\- PHP
-
-\- DVWA
-
-\- Git
-
-\- GitHub
-
-
-
-\---
-
-
-
-###### Skills Gained
-
-
-
-\- Network Security
-
-\- Firewall Configuration
-
-\- Packet Analysis
-
-\- TCP/IP Fundamentals
-
-\- DNS Analysis
-
-\- HTTP Analysis
-
-\- SQL Injection Lab Deployment
-
-\- Web Application Security
-
-\- Linux Administration
-
-\- Git Version Control
-
-\- GitHub Repository Management
-
-
-
-\---
-
-###### 
-
-###### Acknowledgements
+Acknowledgements
 
 I would like to thank "Oasis Infobyte" for providing this internship opportunity, which helped me strengthen my practical cybersecurity skills through real-world hands-on tasks.
 
