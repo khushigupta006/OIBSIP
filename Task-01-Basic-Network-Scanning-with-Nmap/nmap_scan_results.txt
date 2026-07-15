@@ -1,0 +1,56 @@
+NMAP SCAN RESULTS:
+
+Task:
+Basic Network Scan using Nmap
+Scanner:
+Nmap 7.98
+Target Machine:
+Local Kali Linux Virtual Machine
+Target IP Address: 
+10.0.2.15
+
+
+##Basic Network Scan
+Command:
+	nmap 10.0.2.15
+Result:
+	Host is up (0.00037s latency)
+Open Ports:
+	22/tcp open ssh
+Filtered Ports:
+	999 filtered tcp ports (no response)
+
+
+##Service Version Detection
+Command:
+	nmap -sV 10.0.2.15
+Result:
+	22/tcp open ssh OpenSSH 10.0p2 Devian 5 (protocol 2.0)
+Service Information:
+	Operating System:Linux
+Observations:
+	Nmap successfully detected the SSH service version and identified the target as Linux-based operating system.
+
+
+##Operating System Detection
+Command:
+	sudo nmap -O 10.0.2.15
+Result:
+	
+Device Type:
+	General Purpose
+Operating System:
+	Linux
+Kernel:
+	Linux 5.x
+OS Detection Note:
+	Nmap reported that OS detection accuracy may be reduced because the scan identified only one open port.
+
+
+Total Open Ports: 1
+Open Services: SSH (Port 22)
+Operating System: Linux
+Security Observation: The system exposes only the SSH service while the remaining scanned ports are filtered, reducing unnecessary network exposure.
+
+
+End of Report

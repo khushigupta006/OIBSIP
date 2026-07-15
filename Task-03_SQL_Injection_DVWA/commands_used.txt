@@ -1,0 +1,25 @@
+sudo apt update
+sudo apt install apache2
+sudo apt install mariadb-server
+sudo apt install php
+sudo systemctl start apache2
+sudo systemctl start mariadb
+
+cd /var/www/html
+sudo git clone https://github.com/digininja/DVWA.git
+
+sudo cp config.inc.php.dist config.inc.php
+
+sudo mysql
+
+CREATE DATABASE dvwa;
+CREATE USER 'dvwa'@'localhost' IDENTIFIED BY 'p@ssw0rd';
+GRANT ALL PRIVILEGES ON dvwa.* TO 'dvwa'@'localhost';
+FLUSH PRIVILEGES;
+
+sudo chown -R www-data:www-data /var/www/html/DVWA
+sudo chmod -R 755 /var/www/html/DVWA
+
+sudo systemctl restart apache2
+
+sudo tail -50 /var/log/apache2/error.log

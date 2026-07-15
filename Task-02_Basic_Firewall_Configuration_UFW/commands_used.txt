@@ -1,0 +1,24 @@
+# Check UFW status
+sudo ufw status verbose
+
+# Allow SSH
+sudo ufw allow ssh
+
+# Enable UFW
+sudo ufw enable
+
+# Block HTTP traffic
+sudo ufw deny http
+
+# Allow HTTPS traffic
+sudo ufw allow https
+
+# Block TCP Port 8080
+sudo ufw deny 8080/tcp
+
+# Verify firewall rules
+sudo ufw status verbose
+
+# Firewall testing
+curl http://localhost
+curl http://10.0.2.15

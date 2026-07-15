@@ -1,0 +1,7 @@
+wireshark --version
+
+Display Filters Used:
+http
+dns
+tcp
+tcp.flags.syn==1

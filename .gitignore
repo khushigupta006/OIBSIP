@@ -1,0 +1,70 @@
+# =========================
+# Operating System Files
+# =========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# JetBrains IDEs
+# =========================
+.idea/
+*.iml
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Temporary Files
+# =========================
+*.tmp
+*.temp
+
+# =========================
+# Archives
+# =========================
+*.zip
+*.7z
+*.rar
+
+# =========================
+# Linux Swap Files
+# =========================
+*.swp
+
+# =========================
+# macOS
+# =========================
+.AppleDouble
+.LSOverride
+
+# =========================
+# Windows Recycle Bin
+# =========================
+$RECYCLE.BIN/
+
+# =========================
+# Network Captures (Optional)
+# Uncomment if you do not want to commit captures
+# *.pcap
+# *.pcapng
