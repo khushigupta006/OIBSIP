@@ -1,166 +1,151 @@
-Oasis Infobyte Cyber Security Internship
+# Oasis Infobyte Cyber Security Internship
 
-Overview:
-This repository contains the practical assignments completed during my Cyber Security Internship at Oasis Infobyte. Throughout the internship, I worked with industry-standard cybersecurity tools on Kali Linux to gain hands-on experience in network reconnaissance, firewall configuration, and network traffic analysis. Each task focuses on developing practical skills commonly used in cybersecurity assessments.
+## Overview
 
+This repository contains the work completed during my **Cyber Security Internship at Oasis Infobyte**. The internship provided hands-on experience with cybersecurity tools, Linux-based security configurations, network analysis, and security research. Each task helped strengthen my understanding of core cybersecurity concepts through practical implementation and technical documentation.
 
 ---
 
-Tasks:
+# Completed Tasks
 
-Task 1 – Basic Scanning with Nmap
+## Task 1 – Basic Scanning with Nmap
 
-Objective
+### Objective
+Perform network reconnaissance using **Nmap** to identify active hosts, open ports, and running services on a network.
 
-Perform network reconnaissance using Nmap to identify active hosts, open ports, and running services.
+### Key Learning Outcomes
+- Host discovery and network enumeration
+- TCP port scanning
+- Service and version detection
+- Understanding attack surface identification
+- Interpreting scan results for security assessment
 
-Key Learning Outcomes
+### Tools Used
+- Kali Linux
+- Nmap
 
-Host discovery
-
-TCP port scanning
-
-Service and version detection
-
-Network enumeration
-
-Understanding attack surface identification
-
-
-Tools Used
-
-Kali Linux
-
-Nmap
-
-
-Folder
-
+**Folder**
+```text
 Task-01_Basic_Scanning_with_Nmap
-
-
----
-
-Task 2 – Basic Firewall Configuration
-
-Objective
-
-Configure and manage a host-based firewall using UFW (Uncomplicated Firewall) to control network traffic.
-
-Key Learning Outcomes
-
-Firewall installation and configuration
-
-Allowing and blocking ports
-
-Managing firewall rules
-
-Verifying firewall status
-
-Understanding network access control
-
-
-Tools Used
-
-Kali Linux
-
-UFW (Uncomplicated Firewall)
-
-
-Folder
-
-Task-02_Basic_Firewall_Configuration_UFW
-
+```
 
 ---
 
-Task 3 – SQL Injection using DVWA (Incomplete)
+## Task 2 – Basic Firewall Configuration
 
-Objective
+### Objective
+Configure and manage a host-based firewall using **UFW (Uncomplicated Firewall)** to control inbound and outbound network traffic.
 
-Set up Damn Vulnerable Web Application (DVWA) and perform SQL Injection testing in a controlled environment.
+### Key Learning Outcomes
+- Firewall installation and configuration
+- Creating allow and deny rules
+- Verifying firewall status
+- Testing firewall configurations
+- Understanding network access control
 
-Current Progress
+### Tools Used
+- Kali Linux
+- UFW (Uncomplicated Firewall)
 
-Installed DVWA
-
-Configured Apache, PHP, and MariaDB
-
-Created the required database and user
-
-Configured DVWA files
-
-Performed troubleshooting for database connectivity issues
-
-
-Status
-
-Incomplete
-
-The SQL Injection demonstration could not be completed due to unresolved database authentication issues during the DVWA setup. The setup process and troubleshooting steps have been documented for future completion.
-
+**Folder**
+```text
+Task-02_Basic_Firewall_Configuration_UFW 
+```
 
 ---
 
-Task 8 – Wireshark Packet Capture and Analysis
+## Task 3 – SQL Injection using DVWA *(Incomplete)*
 
-Objective
+### Objective
+Set up **Damn Vulnerable Web Application (DVWA)** and demonstrate SQL Injection attacks in a controlled environment.
 
-Capture and analyze network traffic using Wireshark to understand packet flow and communication between systems.
+### Current Progress
+- Installed and configured DVWA
+- Configured Apache, PHP, and MariaDB
+- Created the required database and user
+- Updated DVWA configuration files
+- Performed troubleshooting for database authentication and connectivity issues
 
-Key Learning Outcomes
+### Status
+**Incomplete**
 
-Packet capture
+Due to unresolved database authentication issues during the DVWA setup, the SQL Injection demonstration could not be completed successfully. The installation process and troubleshooting steps have been documented for future completion.
 
-Protocol filtering
+---
 
-TCP handshake analysis
+## Task 4 – Research Report: Common Network Security Threats
 
-HTTP and DNS traffic inspection
+### Objective
+Conduct research on common network security threats, understand how these attacks are performed, analyze their impact, and study practical mitigation strategies.
 
-Network traffic analysis
+### Topics Covered
+- Distributed Denial-of-Service (DDoS) Attacks
+- Man-in-the-Middle (MITM) Attacks
+- IP Spoofing
+- DNS Poisoning (DNS Spoofing)
+- Real-world cyberattack case studies
+- Security best practices and mitigation techniques
 
+### Key Learning Outcomes
+- Developed an understanding of common network-based cyber threats.
+- Studied the working principles of different attack techniques.
+- Analyzed the impact of attacks on organizations and individuals.
+- Explored practical mitigation strategies used to secure modern networks.
+- Improved technical research and cybersecurity documentation skills.
 
-Tools Used
+### Deliverables
+- Comprehensive research report
+- Threat comparison table
+- Real-world attack examples
+- References from trusted cybersecurity resources
 
-Kali Linux
+**Folder**
+```text
+Task-04_Network_Security_Threats
+```
 
-Wireshark
+---
 
+## Task 8 – Wireshark Packet Capture and Analysis
 
-Folder
+### Objective
+Capture and analyze network traffic using **Wireshark** to understand packet flow and communication between systems.
 
+### Key Learning Outcomes
+- Packet capturing and inspection
+- Applying protocol filters
+- TCP Three-Way Handshake analysis
+- HTTP and DNS traffic analysis
+- Understanding packet-level communication
+
+### Tools Used
+- Kali Linux
+- Wireshark
+
+**Folder**
+```text
 Task-08_Wireshark_Packet_Analysis
-
-
----
-
-Technologies and Tools
-
-Kali Linux
-
-Nmap
-
-UFW (Uncomplicated Firewall)
-
-Wireshark
-
-Apache
-
-MariaDB
-
-PHP
-
-Git
-
-GitHub
-
-
+```
 
 ---
 
-Repository Structure
+# Technologies and Tools
 
+- Kali Linux
+- Nmap
+- UFW (Uncomplicated Firewall)
+- Wireshark
+- Apache
+- MariaDB
+- PHP
+- Git
+- GitHub
+
+---
+
+# Repository Structure
+
+```text
 Oasis-Infobyte/
 │
 ├── Task-01_Basic_Scanning_with_Nmap/
@@ -169,46 +154,52 @@ Oasis-Infobyte/
 │
 ├── Task-03_SQL_Injection_DVWA/      (Incomplete)
 │
+├── Task-04_Network_Security_Threats/
+│
 └── Task-08_Wireshark_Packet_Analysis/
-
-
----
-
-Skills Acquired
-
-Network Reconnaissance
-
-Port Scanning
-
-Firewall Configuration
-
-Network Access Control
-
-Packet Capture and Analysis
-
-Network Protocol Analysis
-
-Kali Linux Administration
-
-Basic Web Security Concepts
-
-Git and GitHub Version Control
-
-
+```
 
 ---
 
-Internship Details
+# Skills Acquired
 
-Organization: Oasis Infobyte
-
-Domain: Security analyst
-
+- Network Reconnaissance
+- Network Enumeration
+- Port Scanning
+- Firewall Configuration
+- Network Access Control
+- Network Threat Analysis
+- Packet Capture and Analysis
+- Network Protocol Analysis
+- Technical Research and Documentation
+- Kali Linux Administration
+- Basic Web Security Concepts
+- Git and GitHub Version Control
 
 ---
+
+# Internship Details
+
+**Organization:** Oasis Infobyte
+
+**Domain:** Security Analyst 
+
+---
+
+# Note
+
+This repository represents my learning journey during the **Oasis Infobyte Cyber Security Internship**.
+
+The following tasks have been successfully completed:
+
+- Task 1 – Basic Scanning with Nmap
+- Task 2 – Basic Firewall Configuration
+- Task 4 – Research Report: Common Network Security Threats
+- Task 8 – Wireshark Packet Capture and Analysis
+
+**Task 3 – SQL Injection using DVWA** remains incomplete due to unresolved database authentication issues encountered during the setup process. The installation procedure and troubleshooting efforts have been documented and included in this repository for future reference.
 
 
 Acknowledgements
-
 I would like to thank "Oasis Infobyte" for providing this internship opportunity, which helped me strengthen my practical cybersecurity skills through real-world hands-on tasks.
 
